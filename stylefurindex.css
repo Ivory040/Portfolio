@@ -8,6 +8,7 @@
 body {
     background-image: url(gettyimages-915343554.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
 }
 a{
@@ -389,7 +390,11 @@ footer {
 @media screen and (max-width: 767px) {
     /* Body */
     body {
-   background-color: black;
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background: rgb(0,0,0); */
+        background: linear-gradient(90deg, rgb(36, 35, 35) 39%,  rgb(45, 46, 46) 74%);
     }
     /* Navbar */
     .snip1143 li {
@@ -427,4 +432,3 @@ footer {
 
 
 
-  
